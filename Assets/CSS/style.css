@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-color: black;
+}
+
+.canvasContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#game-area {
+  width: 100%;
+  background-color: #E2E2DF;
+}
+/*# sourceMappingURL=style.css.map */

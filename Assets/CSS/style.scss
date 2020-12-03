@@ -1,0 +1,19 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+}
+
+.canvasContainer {
+    @include flexCenter;
+    width: 100%;
+}
+
+#game-area {
+    width: 100%;
+    background-color: #E2E2DF;
+}
